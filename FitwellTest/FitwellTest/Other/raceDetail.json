@@ -1,0 +1,25 @@
+{
+	"userNameSurname": "Adriana Lima",
+	"location": "Istanbul",
+	"totalTime": "1D 3H",
+	"totalKm": "155",
+	"totalCal": "23433",
+	"route": [{
+			"vehicle": 1,
+			"hour": "13:00",
+			"description": "It was some time before he obtaned any answer and dthe reply when made was unpropitious"
+		},
+		{
+			"vehicle": 3,
+			"hour": "21:00",
+			"description": "It was some time before he obtaned any answer and dthe reply when made was unpropitious. t was some time before he obtaned any answer and dthe reply when made was unpropitious"
+		},
+		{
+			"vehicle": 2,
+			"hour": "15:00",
+			"description": "It was some time before he obtaned any answer and dthe reply when made was unpropitious"
+		}
+	]
+
+}
+

@@ -1,0 +1,27 @@
+[
+	{
+		"userImage": "",
+		"backgroundImage":"fit1",
+		"placeName":"placeName1",
+		"time":"2d 3h",
+		"personCount":"5",
+		"km":"10"
+	},
+	{
+         "userImage": "",
+         "backgroundImage":"fit2",
+         "placeName":"placeName2",
+         "time":"2d 3h",
+         "personCount":"3",
+         "km":"10"
+	},
+	{
+         "userImage": "",
+         "backgroundImage":"fit3",
+         "placeName":"placeName3",
+         "time":"2d 3h",
+         "personCount":"6",
+         "km":"10"
+	}
+]
+

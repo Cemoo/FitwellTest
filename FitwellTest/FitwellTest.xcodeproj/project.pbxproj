@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		52A8FCFF20F0078500543F5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8FCFE20F0078500543F5F /* AppDelegate.swift */; };
-		52A8FD0120F0078500543F5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8FD0020F0078500543F5F /* ViewController.swift */; };
+		52A8FD0120F0078500543F5F /* RaceDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8FD0020F0078500543F5F /* RaceDetailVC.swift */; };
 		52A8FD0420F0078500543F5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A8FD0220F0078500543F5F /* Main.storyboard */; };
 		52A8FD0620F0078700543F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A8FD0520F0078700543F5F /* Assets.xcassets */; };
 		52A8FD0920F0078700543F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A8FD0720F0078700543F5F /* LaunchScreen.storyboard */; };
+		52A8FD1320F009D500543F5F /* RaceListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8FD1220F009D500543F5F /* RaceListVC.swift */; };
+		52A8FD1E20F024B200543F5F /* RaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8FD1D20F024B200543F5F /* RaceCell.swift */; };
+		52A8FD2020F0941800543F5F /* RouteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52A8FD1F20F0941800543F5F /* RouteCell.xib */; };
+		52A8FD2220F0975400543F5F /* RouteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8FD2120F0975400543F5F /* RouteCell.swift */; };
+		52A8FD2720F0A36200543F5F /* raceDetail.json in Resources */ = {isa = PBXBuildFile; fileRef = 52A8FD2520F0A36200543F5F /* raceDetail.json */; };
+		52A8FD2820F0A36200543F5F /* races.json in Resources */ = {isa = PBXBuildFile; fileRef = 52A8FD2620F0A36200543F5F /* races.json */; };
+		52A8FD2C20F0A6F200543F5F /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8FD2B20F0A6F200543F5F /* Race.swift */; };
+		52A8FD2E20F0C7E700543F5F /* RaceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8FD2D20F0C7E700543F5F /* RaceDetail.swift */; };
+		52A8FD3120F130D200543F5F /* RaceListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8FD3020F130D200543F5F /* RaceListViewModel.swift */; };
+		52A8FD3320F13A5F00543F5F /* RaceDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8FD3220F13A5F00543F5F /* RaceDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52A8FCFB20F0078500543F5F /* FitwellTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitwellTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A8FCFE20F0078500543F5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52A8FD0020F0078500543F5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52A8FD0020F0078500543F5F /* RaceDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceDetailVC.swift; sourceTree = "<group>"; };
 		52A8FD0320F0078500543F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52A8FD0520F0078700543F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52A8FD0820F0078700543F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52A8FD0A20F0078700543F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A8FD1220F009D500543F5F /* RaceListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListVC.swift; sourceTree = "<group>"; };
+		52A8FD1D20F024B200543F5F /* RaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceCell.swift; sourceTree = "<group>"; };
+		52A8FD1F20F0941800543F5F /* RouteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RouteCell.xib; sourceTree = "<group>"; };
+		52A8FD2120F0975400543F5F /* RouteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteCell.swift; sourceTree = "<group>"; };
+		52A8FD2520F0A36200543F5F /* raceDetail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = raceDetail.json; sourceTree = "<group>"; };
+		52A8FD2620F0A36200543F5F /* races.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = races.json; sourceTree = "<group>"; };
+		52A8FD2B20F0A6F200543F5F /* Race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
+		52A8FD2D20F0C7E700543F5F /* RaceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceDetail.swift; sourceTree = "<group>"; };
+		52A8FD3020F130D200543F5F /* RaceListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListViewModel.swift; sourceTree = "<group>"; };
+		52A8FD3220F13A5F00543F5F /* RaceDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,72 @@
 		52A8FCFD20F0078500543F5F /* FitwellTest */ = {
 			isa = PBXGroup;
 			children = (
+				52A8FD2420F09C9000543F5F /* Other */,
+				52A8FD2F20F12E7100543F5F /* ViewModel */,
+				52A8FD2320F09A7500543F5F /* Model */,
+				52A8FD1B20F0248000543F5F /* View */,
+				52A8FD1120F009B800543F5F /* Controller */,
 				52A8FCFE20F0078500543F5F /* AppDelegate.swift */,
-				52A8FD0020F0078500543F5F /* ViewController.swift */,
 				52A8FD0220F0078500543F5F /* Main.storyboard */,
 				52A8FD0520F0078700543F5F /* Assets.xcassets */,
 				52A8FD0720F0078700543F5F /* LaunchScreen.storyboard */,
 				52A8FD0A20F0078700543F5F /* Info.plist */,
 			);
 			path = FitwellTest;
+			sourceTree = "<group>";
+		};
+		52A8FD1120F009B800543F5F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52A8FD0020F0078500543F5F /* RaceDetailVC.swift */,
+				52A8FD1220F009D500543F5F /* RaceListVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52A8FD1B20F0248000543F5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52A8FD1C20F0248A00543F5F /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52A8FD1C20F0248A00543F5F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				52A8FD1D20F024B200543F5F /* RaceCell.swift */,
+				52A8FD1F20F0941800543F5F /* RouteCell.xib */,
+				52A8FD2120F0975400543F5F /* RouteCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		52A8FD2320F09A7500543F5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52A8FD2B20F0A6F200543F5F /* Race.swift */,
+				52A8FD2D20F0C7E700543F5F /* RaceDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52A8FD2420F09C9000543F5F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				52A8FD2520F0A36200543F5F /* raceDetail.json */,
+				52A8FD2620F0A36200543F5F /* races.json */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		52A8FD2F20F12E7100543F5F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				52A8FD3020F130D200543F5F /* RaceListViewModel.swift */,
+				52A8FD3220F13A5F00543F5F /* RaceDetailViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +200,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A8FD2020F0941800543F5F /* RouteCell.xib in Resources */,
 				52A8FD0920F0078700543F5F /* LaunchScreen.storyboard in Resources */,
 				52A8FD0620F0078700543F5F /* Assets.xcassets in Resources */,
+				52A8FD2720F0A36200543F5F /* raceDetail.json in Resources */,
+				52A8FD2820F0A36200543F5F /* races.json in Resources */,
 				52A8FD0420F0078500543F5F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +216,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52A8FD0120F0078500543F5F /* ViewController.swift in Sources */,
+				52A8FD2C20F0A6F200543F5F /* Race.swift in Sources */,
+				52A8FD3120F130D200543F5F /* RaceListViewModel.swift in Sources */,
+				52A8FD1E20F024B200543F5F /* RaceCell.swift in Sources */,
+				52A8FD1320F009D500543F5F /* RaceListVC.swift in Sources */,
+				52A8FD3320F13A5F00543F5F /* RaceDetailViewModel.swift in Sources */,
+				52A8FD2220F0975400543F5F /* RouteCell.swift in Sources */,
+				52A8FD0120F0078500543F5F /* RaceDetailVC.swift in Sources */,
 				52A8FCFF20F0078500543F5F /* AppDelegate.swift in Sources */,
+				52A8FD2E20F0C7E700543F5F /* RaceDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
