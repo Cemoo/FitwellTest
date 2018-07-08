@@ -15,6 +15,7 @@ struct RaceDetail: Codable {
     var totalKm: String?
     var totalCal: String?
     var route: [Route]?
+  
 }
 
 struct Route: Codable {

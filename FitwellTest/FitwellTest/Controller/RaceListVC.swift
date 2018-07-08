@@ -18,7 +18,6 @@ class RaceListVC: UIViewController {
         super.viewDidLoad()
         setupTableView()
         updateUI()
-        
         listViewModel.getRaces()
     }
     

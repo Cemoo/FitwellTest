@@ -8,18 +8,16 @@
 
 import Foundation
 
-class RaceDetailViewModel {
-    
+class RaceDetailViewModel: BaseViewModel {
     var race = RaceDetail()
-    func getRaceDetail() {
-        if let path = Bundle.main.path(forResource: "raceDetail", ofType: "json") {
-            do {
-                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-                self.race = try! JSONDecoder().decode(RaceDetail.self, from: data)
-            } catch {
+    func get() {
+        self.getIt("raceDetail", RaceDetail()) { (response) in
+            if let res = response {
+                self.race = res
             }
         }
     }
+    
     
     func fill(_ cell: RouteCell, row: Int) -> RouteCell  {
         guard let routes = race.route else {

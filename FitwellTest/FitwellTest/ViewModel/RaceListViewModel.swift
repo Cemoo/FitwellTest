@@ -8,14 +8,12 @@
 
 import UIKit
 
-class RaceListViewModel {
+class RaceListViewModel: BaseViewModel {
     var races = [Race]()
     func getRaces() {
-        if let path = Bundle.main.path(forResource: "races", ofType: "json") {
-            do {
-                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-                self.races = try! JSONDecoder().decode([Race].self, from: data)
-            } catch {
+        self.getThem("races", Race()) { (response) in
+            if let res = response {
+                self.races = res
             }
         }
     }

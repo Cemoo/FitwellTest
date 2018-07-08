@@ -25,7 +25,7 @@ class RaceDetailVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTableView()
-        raceDetail.getRaceDetail()
+        raceDetail.get()
         fillStaticDatas()
         tbRoute.reloadData()
     }
@@ -76,4 +76,5 @@ extension RaceDetailVC : UITableViewDelegate, UITableViewDataSource {
     
     
 }
+
 
