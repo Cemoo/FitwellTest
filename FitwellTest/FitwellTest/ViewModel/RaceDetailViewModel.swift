@@ -11,7 +11,7 @@ import Foundation
 class RaceDetailViewModel: BaseViewModel {
     var race = RaceDetail()
     func get() {
-        self.getIt("raceDetail", RaceDetail()) { (response) in
+        self.getIt("raceDetail", RaceDetail()) { [unowned self] (response) in
             if let res = response {
                 self.race = res
             }

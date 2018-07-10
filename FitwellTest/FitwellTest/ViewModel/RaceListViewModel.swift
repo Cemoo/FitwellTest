@@ -11,7 +11,7 @@ import UIKit
 class RaceListViewModel: BaseViewModel {
     var races = [Race]()
     func getRaces() {
-        self.getThem("races", Race()) { (response) in
+        self.getThem("races", Race()) { [unowned self] (response) in
             if let res = response {
                 self.races = res
             }
